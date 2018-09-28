@@ -65,3 +65,4 @@ but will not throw key error if username is not found.
 With your table buddy
 * Make sure your last work can handle GET and/or POST
 * Take your browser's developer console for a spin
+  * Ctrl + Shift + I
