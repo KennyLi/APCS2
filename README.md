@@ -40,17 +40,10 @@ POST:
 
 **You can also specify which request to accept in Python**
 ```python 
-@app.route('/', methods = ["GET"])
+@app.route('/', methods = ["GET"]) #Only accepts GET
+@app.route('/', methods = ["POST"]) #Only accepts POST
+@app.route('/', methods = ["GET", "POST"]) #accepts both
 ```
-Only accepts GET
-```python 
-@app.route('/', methods = ["POST"])
-```
-Only accepts POST
-```python 
-@app.route('/', methods = ["GET", "POST"])
-```
-Accepts both
 
 How does one get cookies?
 ```
