@@ -21,7 +21,7 @@ A fix for this would be to use a logic check to see if username was filled in or
 
 #### HTTP request methods
 
-Get: (Easier for debugging)
+GET: (Easier for debugging)
 * Passed through query string
 * Has size limit
 * Less secure since it can be seen in the URL
